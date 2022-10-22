@@ -1,0 +1,27 @@
+.container1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 80vh;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.log-in{
+    text-align: center;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+.email1, .psw, .success{
+    margin-top: 2rem;
+
+}
+
+.success{
+    background-color: chartreuse;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: 1px #fff;
+    color:white;
+}

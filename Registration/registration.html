@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="registration.css">
+  </head>
+  <body>
+    <section class="section">
+      <form class="form" action="form">
+        <div class="container">
+          <p class="reg"><strong>Registration Form</strong> </p>
+          <label class="fname" for="firstname">First Name</label>
+          <input
+            type="text"
+            name="fname"
+            maxlength="12"
+            minlength="3"
+            placeholder="firstname"
+            required
+          />
+
+          <label class="lname" for="lastname">Last Name</label>
+          <input
+            type="text"
+            name="fname"
+            maxlength="12"
+            minlength="3"
+            placeholder="lastname"
+            required
+          />
+
+          <label class="email" for="email">Email</label>
+          <input type="text" name="email" placeholder="email" required />
+
+          <label class="phonenumber" for="phonenumber">Phone Number</label>
+          <input
+            type="tel"
+            name="phonenumber"
+            placeholder="0812-231-2345"
+            pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"
+            required
+          />
+
+          <label class="gender" for="sex">Gender</label>
+          <select name="sex" id="sex">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+
+          <label class="dob" for="dob">Date of Birth</label>
+          <input
+            type="date"
+            name="dob"
+            id="dob"
+            max="2022-01-01"
+            min="1930-01-01"
+            required
+          />
+
+          <label class="fav-color" for="color">Favorite Color</label>
+          <select name="color" id="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="white">White</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="black">Black</option>
+            <option value="purple">Purple</option>
+            <option value="orange">Orange</option>
+          </select>
+
+          <button class="submit" type="submit">
+            <a href="../Login/login.html">Submit</a>
+          </button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

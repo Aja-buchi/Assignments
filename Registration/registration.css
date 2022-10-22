@@ -1,0 +1,33 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 80vh;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.reg{
+    text-align: center;
+    font-style: oblique;
+    font-size: x-large;
+}
+
+.section {
+    height: 100vh
+}
+
+.fname, .lname, .phonenumber, .email, .gender, .dob, .fav-color{
+    margin-top: 2rem;  
+}
+
+.submit{
+    background-color: chartreuse;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: 1px #fff;
+    color:white;
+    margin-top: 2rem; 
+}
